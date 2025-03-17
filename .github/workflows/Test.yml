@@ -19,7 +19,7 @@ jobs:
       - name: Setup SDK
         uses: actions/setup-dotnet@v4
         with:
-         dotnet-version: 9.0 #Chnage to framework used
+         dotnet-version: 9.0 #Change to framework used
 
 
 # Restore Dependancies
@@ -28,7 +28,7 @@ jobs:
 
  # Run Unit Tests
       - name: Unit Tests
-        run: dotnet tests 
+        run: dotnet test
 
 # Build Project 
       - name: Build
