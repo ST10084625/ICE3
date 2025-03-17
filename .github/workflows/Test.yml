@@ -27,7 +27,7 @@ jobs:
         run: dotnet restore
 
  # Run Unit Tests
-      - name: Unitt Tests
+      - name: Unit Tests
         run: dotnet tests 
 
 # Build Project 
